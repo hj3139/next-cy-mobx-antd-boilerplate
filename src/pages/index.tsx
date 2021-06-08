@@ -4,6 +4,8 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
+  const a = 'ss';
+  function abc() {}
   return (
     <div className={styles.container}>
       <Head>
