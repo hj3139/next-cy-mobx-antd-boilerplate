@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint:fix": "lint-staged",
+    "lint:fix": "eslint --fix src",
+    "precommit": "lint-staged",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
